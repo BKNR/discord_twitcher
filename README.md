@@ -37,8 +37,8 @@ activates the virtual environment that you just made, when you navigate into the
 the file you need for the next step.
 7. Navigate into the repo you just cloned with ``cd discord_twitcher`` and install the required python packages
 with ``pip install -r requirements.txt``
-8. You should register "your app" with Twitch (https://dev.twitch.tv/docs/api) and register as developer and make 
-your own bot on discord (https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token) 
+8. You should register your app with Twitch (https://dev.twitch.tv/docs/api) and register as developer and make 
+your own bot on Discord (https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token) 
 and make a discord server so that you can experiment for yourself
 9. ???
 10. Profit!
