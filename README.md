@@ -31,7 +31,7 @@ directions will not cover that (as I don't know how it's done).
 4. Install [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) according to the directions. I suggest you do the optional
 step 2 as well.
 5. Create a new virtual environment that uses Python 3.7.4 called dt374: ``pyenv virtualenv 3.7.4 dt374``
-6. Clone this repository with ``clone http://github.com/BKNR/discord_twitcher.git``. It has a file that automatically 
+6. Clone this repository with ``git clone http://github.com/BKNR/discord_twitcher.git``. It has a file that automatically 
 activates the virtual environment that you just made, when you navigate into the repository directory, and also
 the file you need for the next step.
 7. Navigate into the repo you just cloned with ``cd discord_twitcher`` and install the required python packages
