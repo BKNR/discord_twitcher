@@ -63,6 +63,7 @@ settings.
 * For these streams to be posted in discord, there should be a discord embed with info given as a response for the
 Twitch API query: the stream title, the streamer's name (as a link to click to get into the stream), the stream
 thumbnail, The game name, the number of viewers and either the stream starting time or the uptime.
+* The bot should monitor the live streams at short intervals, at which points the embed should also be updated.
 
 ## How to add your changes
 
