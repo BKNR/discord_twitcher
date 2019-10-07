@@ -5,6 +5,7 @@
 * [What is this?](#What-is-this?)
 * [How to participate](#How-to-participate)
 * [Specs](#Specs)
+* [How to add your changes](#How-to-add-your-changes)
 
 ## What is this?
 
@@ -42,7 +43,7 @@ and make a discord server so that you can experiment for yourself
 9. ???
 10. Profit!
 
-# Specs
+## Specs
 
 I will outline some of the specs here:
 * The project should have at least two python files, with one having the main bot functionalities and the 
@@ -62,3 +63,7 @@ settings.
 * For these streams to be posted in discord, there should be a discord embed with info given as a response for the
 Twitch API query: the stream title, the streamer's name (as a link to click to get into the stream), the stream
 thumbnail, The game name, the number of viewers and either the stream starting time or the uptime.
+
+## How to add your changes
+
+Changes will be made as pull requests, here's how: https://help.github.com/en/articles/creating-a-pull-request
