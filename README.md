@@ -10,7 +10,7 @@
 ## What is this?
 
 This repository will be the home for the collaborative effort of Finnish Tekken scene to make a discord bot.
-The goal is to make bot that shows Finnish Tekken streams that are currently live on twitch, on a specified
+The goal is to make a bot that shows the Finnish Tekken streams that are currently live on twitch, on a specified
 channel on the Discord server. Optimally the result will be a more general purpose bot, that can be used to 
 show the streams for any specific game or games with tags narrowing it down. 
 
