@@ -1,0 +1,7 @@
+#ignoring some stuff but not other stuff
+
+*.txt
+__pycache__
+nohup.out
+
+!requirements.txt
