@@ -3,7 +3,9 @@
 **Table of contents**
 
 [What is this?](#What-is-this?)
+
 [How to participate](#How-to-participate)
+
 [Specs](#Specs)
 
 ## What is this?
