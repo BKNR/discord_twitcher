@@ -36,9 +36,29 @@ activates the virtual environment that you just made, when you navigate into the
 the file you need for the next step.
 7. Navigate into the repo you just cloned with ``cd discord_twitcher`` and install the required python packages
 with ``pip install -r requirements.txt``
-8. ???
-9. Profit!
+8. You should register "your app" with Twitch (https://dev.twitch.tv/docs/api) and register as developer and make 
+your own bot on discord (https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token) 
+and make a discord server so that you can experiment for yourself
+9. ???
+10. Profit!
 
 # Specs
 
-This bit will have specs.
+I will outline some of the specs here:
+* The project should have at least two python files, with one having the main bot functionalities and the 
+other interfacing the twitch api. 
+* The configuration of the bot should be handled as chat commands rather than be hard coded.
+* Only certain people should be able to give configuration commands for the bot.
+* There should be a specific channel for the bot to post in, and post nowhere else.
+* The bot should be at minimum be told what game's streams to post (Tekken's game_id is 461067). Should be possible
+to add multiple games.
+* It should be able to narrow the amount of streams for the bot to post with tags (for the tag 'Finnish' the
+tag_id is 220eb274-ab25-425b-8a9b-826103404997)
+* There should be a possibility add specific streamers for the bot, and for them to ignore the tag requirements.
+* All these settings should be saved somewhere.
+* It should be possible to turn these settings off as well as on. You should also be able to see a list of current
+settings.
+* The bot should have a help command to show the possible commands.
+* For these streams to be posted in discord, there should be a discord embed with info given as a response for the
+Twitch API query: the stream title, the streamer's name (as a link to click to get into the stream), the stream
+thumbnail, The game name, the number of viewers and either the stream starting time or the uptime.
