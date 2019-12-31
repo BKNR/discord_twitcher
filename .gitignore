@@ -3,5 +3,6 @@
 *.txt
 __pycache__
 nohup.out
+*.swp
 
 !requirements.txt
